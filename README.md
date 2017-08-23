@@ -1,3 +1,8 @@
-# Sample: External CSS File
+# bootstrap challenge
 
-This is a demo web project showcasing external CSS files.
+
+1. Build the screen shot below with bootstrap.
+
+![screen shot](bootstrap-challenge.png)
+
+
