@@ -1,219 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-     <title>Bootstrap_chalenge</title>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-   <style>
-   body {
-     padding: 0;
-     margin: 0;
-     background: MediumSeaGreen;
-     color: white;
-     font-family: 'Source Sans Pro', sans-serif;
-   }
-   .project-block {
-     margin: 50px auto;
-   }
-   .list-group {
-     color: black;
-   }
-   .list-group-item.active {
-     background: ForestGreen;
-   }
-   .circle {
-     display: inline-block;
-     width: 30px;
-     height: 30px;
-     padding: 7px;
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="155 characters of message matching text with a call to action goes here">
+<meta name="viewport" content="width=device-width"/>
 
-     font-size: 16px;
-     color: MediumSeaGreen;
-     background: white;
-     border-radius: 50%; /* circle */
-    }
-    .icon-list {
-      list-style-type: none;
-    }
-    .icon-list li {
-      position: relative;
-      padding-left: 10px;
-    }
-    .icon-list .circle {
-      position: absolute;
-      left: -38px;
-      top: 15px;
-    }
-    .white-box {
-      background: white;
-      color: black;
-      padding: 50px;
-      padding-top: 100px;
-    }
-    .white-box .circle {
-      width: 80px;
-      height: 80px;
-      padding: 17px;
+<title>Flexbox Basics</title>
 
-      font-size: 40px;
-      color: white;
-      background: black;
-    }
-   </style>
-   </head>
-   <body>
-   <nav class="navbar navbar-inverse navbar-fixed-top">
-     <div class="container-fluid">
-       <div class="navbar-header">
-       </div>
-       <ul class="nav navbar-nav">
-         <li class="active"><a href="#">Expose</a></li>
-         <li class="active"><a href="#">Home</a></li>
-         <li><a href="#">Services</a></li>
-         <li><a href="#">Features</a></li>
-         <li><a href="#">Pricing</a></li>
-         <li><a href="#">Clients</a></li>
-         <li><a href="#">Contact</a></li>
-       </ul>
-     </div>
-   </nav>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+<link rel="stylesheet" href="main.css">
 
-   <div class="white-box">
-     <div class="container">
-       <div class="row">
-         <div class="col-md-4">
-           <div class="text-center">
-             <span class="glyphicon glyphicon-ok circle" style="background: green"></span>
-             <h2>With Bootstrap <span class="label label-warning">3.0</span></h2>
-             <p>Lorem ipsum dolor sit amet, eu mel numquam facilisi. No pri legendos
-               dissentiunt, mucius mentitum et ius. Tollit soleat honestatis ea vim,
-               sea id ridens corpora.</p>
-           </div>
-         </div>
-         <div class="col-md-4">
-           <div class="text-center">
-             <span class="glyphicon glyphicon-print circle" style="background: red"></span>
-             <h2>Fully Responsive</h2>
-             <p>Lorem ipsum dolor sit amet, eu mel numquam facilisi. No pri legendos
-               dissentiunt, mucius mentitum et ius. Tollit soleat honestatis ea vim,
-               sea id ridens corpora.</p>
-           </div>
-         </div>
-         <div class="col-md-4">
-           <div class="text-center">
-             <span class="glyphicon glyphicon-save circle" style="background: blue"></span>
-             <h2>And Totally <span style="color: green">Free</span></h2>
-             <p>Lorem ipsum dolor sit amet, eu mel numquam facilisi. No pri legendos
-               dissentiunt, mucius mentitum et ius. Tollit soleat honestatis ea vim,
-               sea id ridens corpora.</p>
-           </div>
-         </div>
-      </div>
-     </div>
-   </div>
 
-   <div class="container">
+<!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+ <![endif]-->
 
-     <div class="text-center project-block">
-     <h2>Tell your projects awesome story</h2>
-     <p>Tell your projects awesome story. Tell your projects awesome story. Tell your projects awesome story.
-        Tell your projects awesome story. Tell your projects awesome story. </p>
-    </div>
+</head>
 
-     <div class="row">
-       <div class="col-md-4">
+<body>
 
-         <ul class="list-group">
-           <li class="list-group-item active">
-             <h4 class="list-group-item-heading">List group item heading</h4>
-             <p class="list-group-item-text">Donecid elit non mi porta gravida at eget metus.
-               Fusce dapibus, teiius ac cursus commodo, tortor</p>
-           </li>
-           <li class="list-group-item">
-             <h4 class="list-group-item-heading">List group item heading</h4>
-             <p class="list-group-item-text">Donecid elit non mi porta gravida at eget metus.
-               Fusce dapibus, teiius ac cursus commodo, tortor</p>
-           </li>
-           <li class="list-group-item">
-             <h4 class="list-group-item-heading">List group item heading</h4>
-             <p class="list-group-item-text">Donecid elit non mi porta gravida at eget metus.
-               Fusce dapibus, teiius ac cursus commodo, tortor</p>
-           </li>
-           <li class="list-group-item">
-             <h4 class="list-group-item-heading">List group item heading</h4>
-             <p class="list-group-item-text">Donecid elit non mi porta gravida at eget metus.
-               Fusce dapibus, teiius ac cursus commodo, tortor</p>
-           </li>
-           <li class="list-group-item">
-             <h4 class="list-group-item-heading">List group item heading</h4>
-             <p class="list-group-item-text">Donecid elit non mi porta gravida at eget metus.
-               Fusce dapibus, teiius ac cursus commodo, tortor</p>
-           </li>
-         </ul>
+    <!-- Web Page Content Goes Here -->
 
-       </div>
-       <div class="col-md-8">
 
-         <h2>Our <strong>Features</strong></h2>
-
-         <div class="row">
-           <div class="col-md-6">
-
-             <ul class="icon-list">
-               <li>
-                 <span class="glyphicon glyphicon-user circle"></span>
-                 <h3>Customer Suport</h3>
-                 <p>Lorern ipsum dolor sit amet,consectetur adip.</p>
-               </li>
-               <li>
-                 <span class="glyphicon glyphicon-piggy-bank circle"></span>
-                 <H3>HTML5/CSS3/JS</H3>
-                 <p>Lorern ipsum dolor sit amet,adip.</p>
-               </li>
-               <li>
-                 <span class="glyphicon glyphicon-cutlery circle"></span>
-                 <H3>500 Google Funt</H3>
-                 <p>Lorern ipsum dolor sit amet,consectetur adip.</p>
-               </li>
-               <li>
-                 <span class="glyphicon glyphicon-adjust circle"></span>
-                 <H3>Colors</H3>
-                 <p>Lorern ipsum dolor sit amet,adip.</p>
-               </li>
-             </ul>
-           </div>
-           <div class="col-md-6">
-             <ul class="icon-list">
-               <li>
-                 <span class="glyphicon glyphicon-film circle"></span>
-                 <h3>Sliders</h3>
-                 <p>Lorern ipsum dolor sit amet,consectetur.</p>
-               </li>
-               <li>
-                 <span class="glyphicon glyphicon-knight circle"></span>
-                 <h3>Icons</h3>
-                 <p>Lorern ipsum dolor sit amet,consectetur adip.</p>
-               </li>
-               <li>
-                 <span class="glyphicon glyphicon-king circle"></span>
-                 <h3>Buttons</h3>
-                 <p>Lorern ipsum dolor sit amet,adip.</p>
-               </li>
-               <li>
-                 <span class="glyphicon glyphicon-pawn circle"></span>
-                 <h3>Lightbox</h3>
-                 <p>Lorern ipsum dolor sit amet,adip.</p>
-               </li>
-             </ul>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
-
-   </body>
- </html>
+</body>
+</html>
